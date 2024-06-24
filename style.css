@@ -1,0 +1,120 @@
+*{
+    padding: 0; /*Coloquei o preenchimento 0*/
+    margin: 0 auto; /*Coloquei a margem 0 (para se completar com o padding)*/
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif; /*Alterei o tipo da fonte de todo o código*/
+}
+body{
+    background-color: lightgray;
+}
+.container{
+    height: 1200px;
+    width: 65%;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    color: white;
+    padding: 50px; /*Coloquei o preenchimento de 50px*/
+}
+
+.right{ 
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid; /*Coloquei a borda de 1px*/
+    float: left;
+    padding: 50px; /*Coloquei o preenchimento de 50px*/
+}
+
+.profile img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%; /*Coloquei a borda-radius para a foto ficar redonda*/
+    border: 5px solid pink; /*Coloquei a borda de 5px*/
+}
+h1{
+    font-size: 44px; /*Alterei o tamanho da fonte da h1 para 44px*/
+    margin-top: 20px; /*Coloquei a margem topo de 20px*/
+}
+.profile h2{
+    color: pink;
+    font-style: italic; /*Alterei o estilo da fonte para italico na h2 do profile*/
+    font-weight: 100; /*Alterei o peso da fonte para 100 na h2 do profile*/
+    font-size: 20px; /*Alterei o tamanho da fonte da h2 do profile para 20px*/
+    margin: 12px 0; /*Coloquei a margem de 12px e 0*/
+}
+.educ{
+    margin-top: 20px; /*Coloquei a margem topo de 20px*/
+}
+.educ h2{
+    color: palevioletred;
+    margin-top: 20px; /*Coloquei a margem topo de 20px*/
+    margin-bottom: 10px; /*Coloquei a margem embaixo de 10px/*
+}
+.educ h3{
+    font-style: italic; /*Alterei o estilo da fonte para italico na h3 no educ*/
+    font-weight: 400; /*Alterei o peso da fonte para 400 na h3 no educ*/
+    font-size: 20px; /*Alterei o tamanho da fonte para 20px na h3 no educ*/
+    margin-top: 6px; /*Coloquei a margem topo de 6px*/
+}
+.contatos{
+    margin-top: 20px; /*Coloquei a margem topo de 20px*/
+}
+.contatos p{
+    margin-bottom: 15px; /*Coloquei a margem embaixo de 15px*/
+}
+.experiencia{
+    margin-top: 80px; /*Coloquei a margem topo de 80px*/
+}
+.experiencia li, .habilidades ul{
+    margin-left: 30px; /*Coloquei a margem esquerda de 30px*/
+    margin-top: 8px; /*Coloquei a margem topo de 8px*/
+    margin-bottom: 16px; /*Coloquei a margem embaixo de 16px*/
+}
+.experiencia hr, .habilidades hr{
+    margin: 10px 0;
+    margin-left: -50px;
+}
+.experiencia h3, .habilidades h3{
+    font-weight: 400; /*Alterei o peso da fonte para 400 na h3 de experiencia e habilidades*/
+    font-style: italic; /*Alterei o estilo da fonte para italic na h3 de experiencia e habilidades*/
+    margin-bottom: 10px; /*Coloquei a margem embaixo de 10px*/
+}
+.habilidades li{
+    margin-left: 30px; /*Coloquei a margem esquerda de 30px*/
+}
+.habilidades ul{
+    margin-bottom: 20px; /*Coloquei a margem embaixo de 20px*/
+}
+i{
+    font-size: 20px; /*Alterei o tamanho da fonte para 20px de todos os italicos*/
+    color: palevioletred;
+    margin-right: 20px; /*Coloquei a margem direita de 20px*/
+}
+.desenvolvedora{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.bar{
+    height: 16px;
+    border: 1px solid; /*Coloquei a borda de 1px*/
+    width: 40%;
+    margin-left: 30%; /*Coloquei a margem direita 30%*/
+}
+
+.progress-50{
+    width: 50%;
+    height: 100%;
+    background-color: palevioletred;
+}
+
+.progress-100{
+    width: 100%;
+    height: 100%;
+    background-color: palevioletred;
+}
